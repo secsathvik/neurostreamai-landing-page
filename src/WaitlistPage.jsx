@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTheme } from './ThemeContext';
 import * as Yup from 'yup';
-import DOMPurify from 'dompurify';
+import DOMPurify from 'dompurify'; 
 
 // Move validation schema outside component to prevent re-creation on every render
 const validationSchema = Yup.object({
